@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import { assets, roomCommonData } from '../assets/assets'
-//import { useAppContext } from '../context/AppContext';
+import { useAppContext } from '../context/AppContext';
 import { useParams } from 'react-router-dom';
 import StarRating from '../components/StarRating';
-//import toast from 'react-hot-toast';
+import toast from 'react-hot-toast';
 
 const RoomDetails = () => {
     const { id } = useParams();
