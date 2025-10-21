@@ -1,7 +1,7 @@
 import React from 'react'
 import Title from './Title'
 import { assets } from '../assets/assets'
-//import { exclusiveOffers } from '../assets/assets'
+import { exclusiveOffers } from '../assets/assets'
 
 const ExclusiveOffers = () => {
     return (
